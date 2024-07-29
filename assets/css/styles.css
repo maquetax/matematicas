@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(58, 52, 79);
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: rgb(59, 13, 13);
+    text-align: center;
+    transition: background-color 0.5s;
+}
+.caja:hover{
+    opacity: 0.6;
+}
+
+h2{
+    padding-top: 90px;
+}
+
+#comojugar, #jugar, #resultados{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.inicio{
+    position: absolute;
+    margin: -70px 0;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
